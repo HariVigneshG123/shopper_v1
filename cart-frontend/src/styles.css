@@ -1,3 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import 'tailwindcss';
+
+:root { 
+    --min-input-height: 5vh;
+    --min-input-width: 25vw; 
+    --gap-generic-inputs: 2vh;
+    --button-color: #006633;
+
+    --header-height: 10vh;
+    --header-width:100vw;
+
+    --body-height: 90vh;
+    --body-width: 100vw
+} 

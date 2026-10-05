@@ -1,11 +1,22 @@
-<div class="min-h-dvh w-full flex flex-col items-center justify-center">
-
+<div>
     <!-- <p>login-page works!</p> -->
+    <div class="h-(--header-height) w-(--header-width) bg-(--button-color)">
+        <h1 class="text-4xl font-bold italic text-white px-[5vh] py-[2vh]"> CartIt!</h1>
+    </div>
+    <div class="w-full flex flex-col items-center justify-center gap-y-(--gap-generic-inputs) h-(--body-height) w-(--body-width)">
+        <div>
+            <p>User ID</p>
+            <input class="border-1 border-[oklch(14.5%_0_0)] min-h-(--min-input-height) min-w-(--min-input-width) rounded-xl"/>
+        </div>
 
-    <p>Username</p>
-    <input class="border-2 border-color: oklch(14.5% 0 none);"/>
-
-    <p>Password</p>
-    <input class="border-2 border-color: oklch(14.5% 0 none);"/>
+        <div>
+            <p>Password</p>
+            <input class="border-1 border-[oklch(14.5%_0_0)] min-h-(--min-input-height) min-w-(--min-input-width) rounded-xl"/>
+        </div>
+        
+        <div>
+            <button class="min-h-(--min-input-height) min-w-(--min-input-width) rounded-3xl bg-(--button-color) text-white"> Log In </button>
+        </div>
+    </div>
 
 </div>
